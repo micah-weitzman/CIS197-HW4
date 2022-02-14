@@ -5,11 +5,11 @@ const Voter = () => {
 
   return (
     <div>
-      <button onClick={() => setCount(count + 1)}>
+      <button type="button" onClick={() => setCount(count + 1)}>
         +
       </button>
       <span>{ count }</span>
-      <button onClick={() => setCount(count - 1)}>
+      <button type="button" onClick={() => setCount(count - 1)}>
         -
       </button>
 

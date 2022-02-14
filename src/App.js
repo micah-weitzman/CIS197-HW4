@@ -1,14 +1,13 @@
-import './App.css'
+import React from 'react'
 import Container from './Container'
+import './App.css'
 
-const App = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Container />
-      </header>
-    </div>
-  )
-}
+const App = () => (
+  <div className="App">
+    <header className="App-header">
+      <Container />
+    </header>
+  </div>
+)
 
 export default App
